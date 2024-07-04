@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Review</title>
+</head>
+<body>
+    <header>
+        <center><h1>Submit Your Review</h1></center>
+        <nav>
+            <ul style="list-style-type: none; margin: 0; padding: 0;">
+                <li style="display: inline; margin-right: 200px;margin-left: 600px; font-size: 200%;"><a href="page1.htm">Home</a></li>
+                <li style="display: inline; margin-right: 200px;font-size: 200%;"><a href="page2.htm">Reviews</a></li>
+                <li style="display: inline; margin-right: 200px;font-size: 200%;"><a href="page3.htm">Submit Review</a></li>
+            </ul>
+        </nav>
+    </header>
+    <center>
+    <form action="submit_form_destination.html" method="post" style="margin-top: 75px;">
+        <label style="font-size: 35px;font-style:italic;">First Name:</label>
+        <input type="text" name="fname"><br><br>
+        <label style="font-size: 35px;font-style:italic;">Last Name:</label>
+        <input type="text" name="lname"><br><br>
+        <label style="font-size: 35px;font-style:italic;">Email:</label>
+        <input type="email" name="email"><br><br>
+        <label style="font-size: 35px;font-style:italic;">Book:</label>
+        <input type="text" name="book"><br><br>
+        <label style="font-size: 35px;font-style:italic;">Genre of Book:</label>
+        <select style="font-size: 35px;font-style:italic;"name="genre">
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-Fiction</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="mystery">Mystery</option>
+            
+        </select><br><br>
+        <label for="review" style="font-size: 35px;font-style:italic;">Review:</label>
+        <textarea id="review" name="review"></textarea><br><br>
+        <input  style="font-size: 35px;font-style:italic;"type="submit" value="Submit">
+        <input  style="font-size: 35px;font-style:italic;"type="reset" value="Reset">
+    </form>
+</center>
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
